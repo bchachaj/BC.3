@@ -24,18 +24,18 @@
 /libpeerconnection.log
 npm-debug.log
 testem.log
-typings
-.firebaserc
-firebase.json
-.editorconfig
-karma.conf.js
-angular-cli.json
-tslint.json
-/src/environments/*
-styles.css
-database.rules.json
+/typings
+/.firebaserc
+/firebase.json
+/.editorconfig
+/karma.conf.js
+/angular-cli.json
+/tslint.json
+/src/environments
+/styles.css
+/database.rules.json
 
-/public/*
+
 
 # e2e
 /e2e/*.js
