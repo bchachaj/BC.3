@@ -34,6 +34,7 @@ testem.log
 /src/environments
 /styles.css
 /database.rules.json
+/protractor.conf.js
 
 
 
