@@ -1,0 +1,53 @@
+.jumbotron {
+	display:block;
+overflow:auto;
+}
+
+.navbar {
+	position:absolute;
+	height:10%;
+}
+a {
+	color:black;
+}
+
+li {
+	
+	margin:3px;
+}
+
+li:focus {
+	border-bottom: 1px solid black;
+	border-radius:none;
+	background-color: white;
+}
+
+
+a#logo:hover {
+	background-color: inherit;
+}
+a#logo {
+	height:70%;
+	margin-top:-1%;
+}
+a:focus {
+
+	background-color:white;
+	border-radius:none;
+}
+li {
+	border-radius:none;
+
+}
+body {
+	background-color:white;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+b {
+	font-family: 'Bungee Hairline';
+	font-weight:bold;
+	font-size:18px;
+	color:#009688;
+	
+}
+

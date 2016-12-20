@@ -1,0 +1,29 @@
+a:hover {
+	text-decoration:none;
+	
+}
+
+a {
+	 color: #009688;
+}
+b {
+	color:#bbb;
+}
+.row {
+	width:100%;
+}
+.col-md-4 {
+	
+	height:200px;
+	border-radius:5px;
+	align-content:center;
+	background-color:#666666;
+	opacity:.3;
+	margin:5px;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+.col-md-4:hover {
+	opacity:.6;
+}
