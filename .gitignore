@@ -25,6 +25,17 @@
 npm-debug.log
 testem.log
 /typings
+/.firebaserc
+/firebase.json
+/.editorconfig
+/karma.conf.js
+/angular-cli.json
+/tslint.json
+/src/environments
+/styles.css
+/database.rules.json
+
+
 
 # e2e
 /e2e/*.js
