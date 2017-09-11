@@ -6,6 +6,7 @@ import { Component, OnInit, HostBinding,
   selector: 'app-main',
   templateUrl: './main.component.html',
   styleUrls: ['./main.component.css'],
+  // styles: ['html {width: 100vw;}'],
    animations: [
     trigger('routeAnimation', [
       state('*',
@@ -40,7 +41,7 @@ export class MainComponent implements OnInit {
   }
 
   @HostBinding('style.position') get position() {
-    return 'absolute';
+    return 'block';
   }
 
   
