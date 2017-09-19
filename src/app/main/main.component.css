@@ -257,3 +257,36 @@ html {
 .muted {
 	color: teal;
 }
+
+
+.feature {
+	transition-duration: 0.7s;
+	background: repeating-linear-gradient(
+  45deg,
+  white,
+  white 100px,
+  #ccffff 100px,
+  #ccffff 200px
+);
+}
+
+.feature h5 {
+	margin-left: 3px;
+}
+
+.feauture-about {
+	padding-left: 3px;
+}
+
+
+
+.feature:hover {
+	transition-duration: 0.5s;
+	background: linear-gradient(
+  45deg,
+  white,
+  white 100px,
+  #ccffff 100px,
+  #ccffff 200px
+);
+}
