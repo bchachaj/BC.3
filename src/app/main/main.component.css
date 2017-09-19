@@ -206,7 +206,6 @@ a.nav-link {
 
 a:hover {
 	text-decoration: none;
-	color: orange;
 	cursor: pointer;
 }
 
@@ -243,12 +242,12 @@ html {
 	
 }
 
-.feature-container a {
+.feature-about-links a {
 	color: orange;
 	padding: 5px;
 	border-radius: 2px;
 }
-.feature-container a:hover {
+.feature-about-links a:hover {
 	color: gray;
 	background: #f2f2f2;
 	cursor: pointer;
@@ -265,8 +264,8 @@ html {
   45deg,
   white,
   white 100px,
-  #ccffff 100px,
-  #ccffff 200px
+  #e5ffff 100px,
+  #e5ffff 200px
 );
 }
 
@@ -278,15 +277,23 @@ html {
 	padding-left: 3px;
 }
 
-
+.feature {
+	width: 320px;
+	border-bottom: 1px solid #d9d9d9;
+	border-top: 1px solid #d9d9d9;
+}
 
 .feature:hover {
 	transition-duration: 0.5s;
-	background: linear-gradient(
+	background: repeating-linear-gradient(
   45deg,
   white,
   white 100px,
-  #ccffff 100px,
-  #ccffff 200px
+  #f2f2f2 100px,
+  #f2f2f2 200px
 );
+}
+
+.feature > p:hover {
+	color: gray;
 }
