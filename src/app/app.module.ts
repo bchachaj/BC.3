@@ -5,7 +5,6 @@ import { HttpModule } from '@angular/http';
 import {RouterModule, Routes} from '@angular/router';
 import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
-import { AboutComponent } from './about/about.component';
 import { NavComponent } from './nav/nav.component';
 
 const appRoutes: Routes = [
@@ -13,16 +12,12 @@ const appRoutes: Routes = [
 
   {path:'app-main', component:MainComponent},
 
-
-  {path:'about', component:AboutComponent}
-
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
-    AboutComponent,
     NavComponent
   ],
   imports: [

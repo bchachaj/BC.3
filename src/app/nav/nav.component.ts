@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {MainComponent} from './main/main.component';
-import {AboutComponent} from './about/about.component';
+import {MainComponent} from '../main/main.component';
+
 @Component({
   selector: 'app-nav',
   templateUrl: './nav.component.html',
